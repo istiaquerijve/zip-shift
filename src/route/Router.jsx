@@ -4,7 +4,8 @@ import Home from "../pages/Home/Home/Home";
 import Covarage from "../pages/Covarage/Covarage";
 import AuthLayout from "../layout/AuthLayout";
 import Login from "../pages/Auth/Login/Login";
-import SingUp from "../pages/Auth/SingUp/SingUp";
+import SingUp from "../pages/Auth/Register/Register";
+import Register from "../pages/Auth/Register/Register";
 
 export const router = createBrowserRouter([
   {
@@ -34,8 +35,8 @@ export const router = createBrowserRouter([
         Component: Login
       },
       {
-        path: "/singUp",
-        Component: SingUp
+        path: "/register",
+        Component: Register
       }
     ]
 
